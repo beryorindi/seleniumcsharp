@@ -12,7 +12,7 @@ public class Heroku
     [SetUp]
     public void Setup()
     {
-        driver = new ChromeDriver(@"/Users/Bery/Downloads/chromedriver-mac-arm64/chromedriver");
+        driver = new ChromeDriver(@"/Users/XXX/chromedriver");
         driver.Navigate().GoToUrl(baseUrl);
     }
     

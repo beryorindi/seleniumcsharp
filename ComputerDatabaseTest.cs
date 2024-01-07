@@ -1,4 +1,4 @@
-namespace SeleniumTesting;
+namespace SeleniumCSharp;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -12,7 +12,7 @@ public class ComputerDatabaseTest
     [SetUp]
     public void Setup()
     {
-        driver = new ChromeDriver(@"/Users/Bery/Downloads/chromedriver-mac-arm64/chromedriver");
+        driver = new ChromeDriver(@"/Users/XXX/chromedriver");
         driver.Navigate().GoToUrl(baseUrl);
     }
     
